@@ -1,0 +1,18 @@
+IndentWidth: 4
+TabWidth: 4
+UseTab: ForContinuationAndIndentation
+ColumnLimit: 120
+
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Inline
+
+AlignAfterOpenBracket: AlwaysBreak
+AlignEscapedNewlines: DontAlign
+AlignOperands: DontAlign
+AlignTrailingComments: Never
+
+AlwaysBreakAfterDefinitionReturnType: TopLevel
+AlwaysBreakTemplateDeclarations: Yes
+
+BreakBeforeBinaryOperators: NonAssignment
