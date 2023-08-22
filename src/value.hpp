@@ -12,7 +12,7 @@ enum class Operation {
 	Mul,
 	Div,
 	Dup,
-	Associate,
+	Commute,
 	Read,
 	ReadNum,
 	Cond,

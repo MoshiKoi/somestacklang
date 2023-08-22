@@ -4,7 +4,7 @@ namespace esolang {
 
 static std::unordered_map<std::string_view, Operation> const kws{
 	{"add", Operation::Add},   {"sub", Operation::Sub},         {"mul", Operation::Mul},
-	{"div", Operation::Div},   {"dup", Operation::Dup},         {"associate", Operation::Associate},
+	{"div", Operation::Div},   {"dup", Operation::Dup},         {"commute", Operation::Commute},
 	{"read", Operation::Read}, {"readnum", Operation::ReadNum}, {"if", Operation::Cond},
 };
 

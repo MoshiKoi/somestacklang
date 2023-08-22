@@ -95,7 +95,7 @@ class machine {
 			_stack.push(_stack.top());
 			break;
 		}
-		case Operation::Associate: {
+		case Operation::Commute: {
 			auto const value = _stack.top();
 			_stack.pop();
 
